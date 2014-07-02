@@ -28,6 +28,7 @@ setup(
     description='Read password from stdin and echo it with letters enumerated. Clear terminal afterwards.',
     long_description=long_description,
     packages=['passletters'],
+    install_requires=['colorama>=0.3.1'],
     include_package_data=True,
     platforms='any',
     classifiers = [
