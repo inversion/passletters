@@ -13,6 +13,7 @@ def main():
 
     lines = [[] for i in xrange(3)]
     for number, letter in enumerate(password):
+        number += 1
         numberStr = str(number)
         padding = ' ' * (len(numberStr) - 1)
         lines[0].append(Fore.GREEN + letter + Fore.RESET + padding)
